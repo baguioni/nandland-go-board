@@ -17,7 +17,7 @@ This is done through Lattice iCEcube2. This converts verilog code to a bitmap. <
 2. Add verilog files to `Files to add`. Verilog files should be in `Synthesis Tool/Add Synthesis Files/Design Files`.
 3. Add constraints file by `P&R Flow/Add P&R Files/Constraint Files`. The file is called `Go_Board_Constraints.pcf`. This file maps inputs/outputs to corresponding pins on the Go Board.
 4. Click `Tools/Run All`. This should generate a `.bin` file in `P&R Flow/Output Files/Bitmap/${filename}.bin`
-5. In Diamond Programmer, click `Program` button on toolbar. If status `FAILS` just change the port of the cable.
+5. In Diamond Programmer, click `Program` button on toolbar. If status `FAILS` just change the port of the cable. Ensure you the `programmer_config.xcf` file is opened. If `Data Expected: h10  Actual: hFF` error occurs, change the port in cable settings.
 
 ### Diamond Programmer Setup
 Ensure that the Go Board is connected to the computer. <br>
