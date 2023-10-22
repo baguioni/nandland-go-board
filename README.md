@@ -1,5 +1,5 @@
 # Nandland Go Board
-This repository tutorial files and projects relating to the [Go Board](https://nandland.com/the-go-board/). Refer to this [link](https://nandland.com/project-1-your-first-go-board-project/) for more information on setting up the deployment process.
+This repository contains tutorial files and projects relating to the [Go Board](https://nandland.com/the-go-board/). Refer to this [link](https://nandland.com/project-1-your-first-go-board-project/) for more information on setting up the deployment process.
 
 ### Required software
 - [iCEcube2](http://latticesemi.com/Products/DesignSoftwareAndIP/FPGAandLDS/iCEcube2.aspx)
